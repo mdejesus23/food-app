@@ -1,0 +1,14 @@
+.mealContainer {
+    width: 100%;
+
+    .imgContainer {
+        width: 100%;
+        margin: 5px 0;
+        img {
+            width: 270px;
+            height: 200px;
+            object-fit: conver;
+        }
+    }
+}
+
