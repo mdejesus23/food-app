@@ -1,0 +1,143 @@
+@media (min-width: 1400.1px) {
+  .filter-section {
+    margin: 3rem auto;
+    h4 {
+      font-size: 1.5rem;
+      color: #8a2b06;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 60%;
+      margin: 1rem auto;
+
+      button {
+        margin: 0 1rem;
+        cursor: pointer;
+        background-color: #8a2b06;
+        border: 1px solid #8a2b06;
+        color: white;
+        padding: 0.7rem 2rem;
+        border-radius: 20px;
+        font-weight: bold;
+
+        &:hover,
+        &:active {
+          background-color: #641e03;
+          border-color: #641e03;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .filter-section {
+    margin: 3rem auto;
+
+    h4 {
+      font-size: 1.5rem;
+      color: #8a2b06;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 65%;
+      margin: 1rem auto;
+
+      button {
+        margin: 0 1rem;
+        cursor: pointer;
+        background-color: #8a2b06;
+        border: 1px solid #8a2b06;
+        color: white;
+        padding: 0.7rem 2rem;
+        border-radius: 20px;
+        font-weight: bold;
+
+        &:hover,
+        &:active {
+          background-color: #641e03;
+          border-color: #641e03;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 899px) {
+  .filter-section {
+    margin: 2rem auto;
+
+    h4 {
+      font-size: 1.5rem;
+      color: #8a2b06;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 75%;
+      margin: 1rem auto;
+
+      button {
+        margin: 0 1rem;
+        cursor: pointer;
+        background-color: #8a2b06;
+        border: 1px solid #8a2b06;
+        color: white;
+        padding: 0.7rem 2rem;
+        border-radius: 20px;
+        font-weight: bold;
+
+        &:hover,
+        &:active {
+          background-color: #641e03;
+          border-color: #641e03;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .filter-section {
+    margin: 1.5rem auto;
+
+    h4 {
+      font-size: 1.5rem;
+      color: #8a2b06;
+    }
+
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 0.8rem;
+      justify-content: center;
+      width: 90%;
+      margin: 1rem auto;
+
+      button {
+        margin: 0 1rem;
+        cursor: pointer;
+        background-color: #8a2b06;
+        border: 1px solid #8a2b06;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 20px;
+        font-weight: bold;
+
+        &:hover,
+        &:active {
+          background-color: #641e03;
+          border-color: #641e03;
+        }
+      }
+    }
+  }
+}

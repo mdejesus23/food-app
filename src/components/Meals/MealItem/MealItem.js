@@ -27,7 +27,7 @@ const MealItem = (props) => {
           <img src={props.image} alt="food" />
         </div>
         <div className={classes["item-details"]}>
-          <h3>{props.name}</h3>
+          <p>{props.name}</p>
           <p>{`$ ${props.price}`}</p>
           <MealForm id={props.id} onAddToCart={addToCartHandler} />
         </div>

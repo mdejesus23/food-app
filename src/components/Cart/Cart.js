@@ -40,9 +40,9 @@ const Cart = (props) => {
       <button className={classes.closeButton} onClick={props.onHideCart}>
         X
       </button>
-      <h1>Your Cart</h1>
+      <h5>Your Cart</h5>
       <ul>{cartItems}</ul>
-      <h2>{`Total Amount ${totalAmount}`}</h2>
+      <h6>{`Total Amount ${totalAmount}`}</h6>
       {hasItem && <button className={classes["order-button"]}>Order</button>}
     </Modal>
   );
