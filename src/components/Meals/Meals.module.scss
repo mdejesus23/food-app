@@ -1,4 +1,11 @@
 .mealsIntro {
-  max-width: 60%;
+  max-width: 80%;
   margin: 2rem auto;
+}
+
+@media (max-width: 650px) {
+  .mealsIntro {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
 }

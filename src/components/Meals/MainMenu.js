@@ -6,8 +6,10 @@ import classes from "./MainMenu.module.scss";
 const MainMenu = () => {
   const foodsList = Data.map((meal) => {
     const { id, name, category, image, price } = meal;
+
     return (
       <MealItem
+        key={id}
         id={id}
         name={name}
         category={category}

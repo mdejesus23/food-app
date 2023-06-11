@@ -1,0 +1,46 @@
+.closeButton {
+  display: flex;
+  background-color: #8a2b06;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #8a2b06;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+
+  &:hover,
+  &:active {
+    background-color: #641e03;
+    border-color: #641e03;
+  }
+}
+
+.order-button {
+  margin: 1.5rem 0;
+  border: 1px solid #8a2b06;
+  border-radius: 5px;
+  color: #8a2b06;
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  margin: 25px auto;
+}
+
+.order-button {
+  float: right;
+
+  &:hover,
+  &:active {
+    background-color: #8a2b06;
+    border-color: #8a2b06;
+    color: white;
+  }
+}
