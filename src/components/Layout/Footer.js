@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className={classes.footer}>
       <p>
-        <span>&copy;</span>
+        <span>&copy; {currentYear}</span>
         <span>melnerdz.com</span>
       </p>
     </footer>

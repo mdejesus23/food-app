@@ -1,25 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 
 import classes from "./FilterMeals.module.scss";
 
 const FilterMeals = (props) => {
-  const filterAllItem = () => {
+  const [activeButton, setActiveButton] = useState("");
+
+  const filterAllItem = (event) => {
+    setActiveButton(event.target.id);
     props.onFilter("all");
   };
 
-  const filterBurgerItem = () => {
+  const filterBurgerItem = (event) => {
+    setActiveButton(event.target.id);
     props.onFilter("burger");
   };
 
-  const filterPizzaItem = () => {
+  const filterPizzaItem = (event) => {
+    setActiveButton(event.target.id);
     props.onFilter("pizza");
   };
 
-  const filterSaladItem = () => {
+  const filterSaladItem = (event) => {
+    setActiveButton(event.target.id);
     props.onFilter("salad");
   };
 
-  const filterChickenItem = () => {
+  const filterChickenItem = (event) => {
+    setActiveButton(event.target.id);
     props.onFilter("chicken");
   };
 
@@ -27,11 +34,55 @@ const FilterMeals = (props) => {
     <div className={classes["filter-section"]}>
       <h4>Filter Items</h4>
       <div className={classes["controls"]}>
-        <button onClick={filterAllItem}>All</button>
-        <button onClick={filterBurgerItem}>Burger</button>
-        <button onClick={filterPizzaItem}>Pizza</button>
-        <button onClick={filterSaladItem}>Salad</button>
-        <button onClick={filterChickenItem}>Chicken</button>
+        <button
+          id="all"
+          className={
+            activeButton === "all" ? `${classes.active}` : `${classes.button}`
+          }
+          onClick={filterAllItem}
+        >
+          All
+        </button>
+        <button
+          id="burger"
+          className={
+            activeButton === "burger"
+              ? `${classes.active}`
+              : `${classes.button}`
+          }
+          onClick={filterBurgerItem}
+        >
+          Burger
+        </button>
+        <button
+          id="pizza"
+          className={
+            activeButton === "pizza" ? `${classes.active}` : `${classes.button}`
+          }
+          onClick={filterPizzaItem}
+        >
+          Pizza
+        </button>
+        <button
+          id="salad"
+          className={
+            activeButton === "salad" ? `${classes.active}` : `${classes.button}`
+          }
+          onClick={filterSaladItem}
+        >
+          Salad
+        </button>
+        <button
+          id="chicken"
+          className={
+            activeButton === "chicken"
+              ? `${classes.active}`
+              : `${classes.button}`
+          }
+          onClick={filterChickenItem}
+        >
+          Chicken
+        </button>
       </div>
     </div>
   );
