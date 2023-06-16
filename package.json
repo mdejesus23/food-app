@@ -1,4 +1,5 @@
 {
+  "homepage": "https://food-app.melnerdz.com",
   "name": "food-app",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,6 +44,7 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.4",
     "@mui/styled-engine-sc": "^5.12.0",
+    "gh-pages": "^5.0.0",
     "sass": "^1.62.1",
     "styled-components": "^5.3.11"
   }

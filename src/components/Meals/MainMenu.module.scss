@@ -57,13 +57,13 @@
 
 @media (max-width: 650px) {
   .meals {
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
 
     ul {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      column-gap: 0.5rem;
+      column-gap: 0.2rem;
       row-gap: 1rem;
     }
 
