@@ -1,0 +1,58 @@
+.form {
+  margin-top: 2rem;
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 1rem;
+
+    label {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    input {
+      border: 1px solid #8a2b06;
+      border-radius: 4px;
+      width: 20rem;
+      height: 30px;
+      max-width: 100%;
+    }
+
+    p {
+      color: red;
+    }
+  }
+
+  .control {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+
+    button {
+      margin-left: 15px;
+
+      cursor: pointer;
+      background-color: #8a2b06;
+      border: 1px solid #8a2b06;
+      color: white;
+      padding: 0.7rem 2rem;
+      border-radius: 20px;
+      font-weight: bold;
+
+      &:hover,
+      &:active {
+        background-color: #641e03;
+        border-color: #641e03;
+      }
+    }
+  }
+}
+
+.invalid {
+  input {
+    border-color: #aa0b20;
+    background-color: #ffeff1;
+  }
+}

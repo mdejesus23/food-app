@@ -10,6 +10,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      row-gap: 0.8rem;
       width: 60%;
       margin: 1rem auto;
 
@@ -47,6 +48,7 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      row-gap: 0.8rem;
       width: 65%;
       margin: 1rem auto;
 
@@ -146,7 +148,6 @@
     }
   }
 }
-
 
 .active {
   width: 7rem;
