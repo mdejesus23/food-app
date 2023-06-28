@@ -2,6 +2,7 @@
   .filter-section {
     margin: 3rem auto;
     h4 {
+      font-size: 2rem;
       color: #8a2b06;
     }
 
@@ -10,7 +11,7 @@
       flex-wrap: wrap;
       justify-content: center;
       row-gap: 0.8rem;
-      width: 60%;
+      width: 80%;
       margin: 1rem auto;
 
       .button {
@@ -20,7 +21,7 @@
         background-color: #8a2b06;
         border: 1px solid #8a2b06;
         color: white;
-        padding: 0.5rem 1.5rem;
+        padding: 0.7rem 1.7rem;
         border-radius: 20px;
         font-weight: bold;
 

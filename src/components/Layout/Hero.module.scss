@@ -1,37 +1,7 @@
-.imageContainer {
-  max-width: 100%;
-  height: 400px;
-  margin: 110px auto 3rem auto;
-  overflow: hidden;
-  position: relative;
-  display: flex;
-
-  .overlay {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-
-    h2 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: 4rem;
-      color: white;
-      font-weight: bold;
-    }
-  }
-}
-
-@media (max-width: 799px) {
+@media (min-width: 1400.1px) {
   .imageContainer {
     max-width: 100%;
-    max-height: 400px;
-    // height: calc(100vh - 100px);
+    height: calc(100vh - 150px);
     margin: 110px auto 3rem auto;
     overflow: hidden;
     position: relative;
@@ -39,21 +9,19 @@
 
     .overlay {
       display: flex;
-      flex-direction: column;
       justify-content: center;
       align-items: center;
       position: absolute;
       background-color: rgba(0, 0, 0, 0.4);
       width: 100%;
-      max-height: 500px;
-      // height: calc(100vh - 100px);
+      height: 100%;
 
       h2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 2.3rem;
+        font-size: 5rem;
         color: white;
         font-weight: bold;
       }
@@ -61,11 +29,41 @@
   }
 }
 
-@media (max-width: 589px) {
+@media (max-width: 1400px) {
   .imageContainer {
     max-width: 100%;
-    max-height: 200px;
-    // height: calc(100vh - 100px);
+    height: calc(100vh - 150px);
+    margin: 110px auto 3rem auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+
+    .overlay {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+
+      h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 4.5rem;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 799px) {
+  .imageContainer {
+    max-width: 100%;
+    height: calc(100vh - 150px);
     margin: 110px auto 3rem auto;
     overflow: hidden;
     position: relative;
@@ -79,11 +77,70 @@
       position: absolute;
       background-color: rgba(0, 0, 0, 0.4);
       width: 100%;
-      max-height: 300px;
-      // height: calc(100vh - 100px);
+      height: 100%;
 
-      h1 {
-        font-size: 2rem;
+      h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .imageContainer {
+    max-width: 100%;
+    height: calc(100vh - 150px);
+    margin: 110px auto 3rem auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+
+    .overlay {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+
+      h2 {
+        font-size: 3.3rem;
+        color: white;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .imageContainer {
+    max-width: 100%;
+    height: calc(100vh - 250px);
+    margin: 110px auto 3rem auto;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+
+    .overlay {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+      height: 100%;
+
+      h2 {
+        font-size: 3rem;
         color: white;
         font-weight: bold;
       }
@@ -94,8 +151,7 @@
 @media (max-width: 360px) {
   .imageContainer {
     max-width: 100%;
-    max-height: 200px;
-    // height: calc(100vh - 100px);
+    height: calc(100vh - 350px);
     margin: 110px auto 3rem auto;
     overflow: hidden;
     position: relative;
@@ -109,8 +165,7 @@
       position: absolute;
       background-color: rgba(0, 0, 0, 0.4);
       width: 100%;
-      max-height: 200px;
-      // height: calc(100vh - 100px);
+      height: 100%;
 
       h2 {
         display: flex;
