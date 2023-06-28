@@ -117,13 +117,17 @@
         font-weight: bold;
       }
     }
+
+    img {
+      object-fit: cover;
+    }
   }
 }
 
 @media (max-width: 420px) {
   .imageContainer {
     max-width: 100%;
-    height: calc(100vh - 250px);
+    height: calc(100vh - 150px);
     margin: 110px auto 3rem auto;
     overflow: hidden;
     position: relative;
@@ -140,10 +144,14 @@
       height: 100%;
 
       h2 {
-        font-size: 3rem;
+        font-size: 2.9rem;
         color: white;
         font-weight: bold;
       }
+    }
+
+    img {
+      object-fit: cover;
     }
   }
 }
@@ -151,7 +159,7 @@
 @media (max-width: 360px) {
   .imageContainer {
     max-width: 100%;
-    height: calc(100vh - 350px);
+    height: calc(100vh - 150px);
     margin: 110px auto 3rem auto;
     overflow: hidden;
     position: relative;
@@ -172,10 +180,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: white;
         font-weight: bold;
       }
+    }
+
+    img {
+      object-fit: cover;
     }
   }
 }
